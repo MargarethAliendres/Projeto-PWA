@@ -1,0 +1,17 @@
+{
+  "name": "pwa-salao",
+  "version": "1.0.0",
+  "description": "PWA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Margareth",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "expresss": "^0.0.0",
+    "i": "^0.3.7"
+  }
+}

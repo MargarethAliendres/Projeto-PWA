@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../_css/style.css">
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="imagem/png" href="icon-512x512.png">
+    <link rel="apple-touch-icon" type="imagem/png" href="icon-512x512.png">
+    <link rel="shortcut icon" type="imagem/png" href="icon-512x512.png">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+<body>                                  <!--mensagem amigavel, jogo e etc-->
+    <h1> offline</h1>                <!-- essa pagina é a pagina quando o servidor estiver fora, pode colocar conteudo statico, para ser visto offline-->
+
+
+    <script>
+  if('serviceWorker' in navigator){
+    navigator.serviceWorker.register('generate-sw.js');
+  }
+    </script>
+    
+</body>
+</html>
